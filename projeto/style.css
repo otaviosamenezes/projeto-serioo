@@ -213,7 +213,7 @@ main{ padding: 150px 4% 60px 4%; }
   box-shadow: 0 0 15px #e50914;
 }
 
-/* ⬆️ CARD HOVER: ZOOM MAIOR QUE VOCÊ PEDIU */
+/* ZOOM DO CARD */
 .card:hover{
   transform: scale(1.05) translateY(-6px);
   box-shadow: 0 28px 55px rgba(0,0,0,0.65);
@@ -307,4 +307,73 @@ main{ padding: 150px 4% 60px 4%; }
   color: rgba(255, 255, 255, 0.6);
   font-size: 0.9rem;
   margin-top: 8px;
+}
+
+/* ------------------------------------------------------ */
+/* 📱🔧 RESPONSIVIDADE FINAL — CELULAR, TABLET E NOTEBOOK */
+/* ------------------------------------------------------ */
+
+/* Ajustes no header */
+@media (max-width: 600px) {
+  #site-header h1 {
+    font-size: 26px;
+    letter-spacing: 2px;
+  }
+
+  #logo-box {
+    width: 60px;
+    height: 60px;
+  }
+
+  #site-header {
+    height: 80px;
+    padding: 15px 4%;
+    gap: 12px;
+  }
+}
+
+/* Busca */
+@media (max-width: 600px) {
+  .search-wrap {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .search-wrap input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #botao-busca,
+  #botao-voltar {
+    width: 100%;
+  }
+}
+
+/* Ajustar cards no celular */
+@media (max-width: 600px) {
+  .card-image {
+    height: 250px;
+  }
+
+  .card {
+    height: auto;
+  }
+}
+
+/* Melhor grid em tablets */
+@media (max-width: 900px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+/* Grid no celular */
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
 }
