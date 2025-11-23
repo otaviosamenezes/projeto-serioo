@@ -495,3 +495,22 @@ main{ padding: 150px 4% 60px 4%; }
   }
 
 }
+/* Ajustar o tamanho do painel de busca SOMENTE no celular */
+@media (max-width: 600px) {
+
+  .search-wrap {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .search-wrap input {
+    width: 220px;     /* 🔥 Aqui você controla o tamanho! */
+    max-width: 220px; /* 🔥 Garante que não vai esticar */
+  }
+
+  #botao-busca {
+    padding: 0 16px;
+    font-size: 14px;
+  }
+
+}
