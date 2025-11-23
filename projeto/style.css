@@ -377,3 +377,93 @@ main{ padding: 150px 4% 60px 4%; }
     gap: 18px;
   }
 }
+/* ===== Ajustes responsivos extras para header / busca ===== */
+
+/* Permitir quebra no header quando necessário */
+#site-header {
+  align-items: center;
+  flex-wrap: wrap; /* permite que logo / título / busca quebrem em linha nova */
+  gap: 12px;
+}
+
+/* Faz a área de busca crescer e evitar overflow */
+.search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  flex: 1 1 420px; /* tenta crescer, mas pode encolher até 420px */
+  min-width: 220px; /* evita encolher demais */
+}
+
+/* Input flexível (ocupa espaço disponível) */
+.search-wrap input {
+  flex: 1 1 200px;
+  max-width: 100%;
+  width: auto; /* removemos cálculo rígido que poderia quebrar */
+  box-sizing: border-box;
+}
+
+/* Certifica que os botões apareçam e não sejam cortados */
+#botao-busca, #botao-voltar {
+  flex: 0 0 auto;
+  white-space: nowrap; /* não quebrem o texto dos botões */
+  display: inline-block;
+}
+
+/* Em telas bem pequenas: empilha a busca + botões */
+@media (max-width: 600px) {
+  /* reduz o título e faz ele caber ao lado do logo ou abaixo */
+  #site-header h1 {
+    font-size: 20px;      /* menor para caber */
+    letter-spacing: 1px;
+    margin-left: 8px;
+  }
+
+  /* empilha os elementos da busca para ficar legível */
+  .search-wrap {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .search-wrap input {
+    height: 44px;
+    padding: 10px 12px;
+    margin-bottom: 6px;
+  }
+
+  #botao-busca, #botao-voltar {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  /* reduz o header pra não cobrir conteúdo */
+  #site-header {
+    height: auto;
+    padding: 12px 4%;
+  }
+
+  /* cards: garantir que altura seja automática (evita overflow do header) */
+  .card {
+    height: auto;
+  }
+
+  /* reduzir imagem dos cards em telas pequenas */
+  .card-image {
+    height: 240px;
+  }
+}
+
+/* Em telas médias: garantir que o título não seja gigante */
+@media (max-width: 900px) {
+  #site-header h1 {
+    font-size: 28px;
+  }
+  .search-wrap {
+    flex: 1 1 300px;
+    min-width: 180px;
+  }
+}
