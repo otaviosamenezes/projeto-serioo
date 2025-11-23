@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Minha lista de jogos</title>
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="site-header">
+    <!-- LOGO -->
+    <div id="logo-box" aria-hidden="true">
+      <img src="imagem/controle3.png" alt="Logo" />
+    </div>
+
+    <!-- TÍTULO -->
+    <h1>LISTA DE JOGOS</h1>
+
+    <!-- CAIXA DE BUSCA -->
+    <div class="search-wrap" role="search" aria-label="Buscar jogos">
+      <input id="input-busca" type="text" placeholder="Digite o nome de um jogo" aria-label="Campo de busca">
+      <button id="botao-busca" type="button">Buscar</button>
+      <button id="botao-voltar" type="button" style="display:none;">Voltar</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="card-container" aria-live="polite">
+      <!-- cards gerados pelo script.js -->
+    </section>
+  </main>
+
+  <!-- Modal do Trailer -->
+  <div id="trailer-modal" class="trailer-modal" aria-hidden="true">
+    <div class="trailer-content">
+      <span class="close-button" onclick="fecharTrailer()" aria-label="Fechar">&times;</span>
+      <h2 id="trailer-titulo"></h2>
+      <iframe
+        id="trailer-iframe"
+        src=""
+        title="Trailer"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+
+  <!-- RODAPÉ -->
+  <footer id="meu-rodape">
+    <div class="linha-footer"></div>
+    <div class="links-footer">
+      <a href="https://github.com/otaviosamenezes" target="_blank" rel="noopener">GitHub</a>
+      <span class="bolinha" aria-hidden="true"></span>
+      <a href="https://www.linkedin.com/in/otavio-samenezes-907a16364/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="creditos">Desenvolvido por Otávio Samenezes 👨‍💻</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="stayle.js"></script>
+</body>
+</html>

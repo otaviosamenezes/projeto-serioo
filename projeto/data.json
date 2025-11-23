@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "F1 25",
+    "descricao": "O jogo oficial da Fórmula 1 com gráficos realistas, física avançada e pilotos da temporada 2025.",
+    "imagem": "imagem/f1255.jpg",
+    "trailer": "https://www.youtube.com/watch?v=u5rWBgBjDsc",
+    "link": "https://www.ea.com/pt-br/games/f1/f1-25"
+  },
+  {
+    "nome": "GTA V",
+    "descricao": "Michael, Franklin e Trevor se unem em assaltos perigosos enquanto enfrentam gangues, governo corrupto e dramas pessoais.",
+    "imagem": "imagem/gtav.webp",
+    "trailer": "https://www.youtube.com/watch?v=hvoD7ehZPcM",
+    "link": "https://www.rockstargames.com/br/gta-v"
+  },
+  {
+    "nome": "God Of War Ragnarok",
+    "descricao": "Kratos e Atreus viajam pelos Nove Reinos em busca de respostas enquanto tentam impedir o Ragnarök.",
+    "imagem": "imagem/Godof.jpg",
+    "trailer": "https://www.youtube.com/watch?v=x6oF3Jxu7X0",
+    "link": "https://www.playstation.com/pt-br/games/god-of-war-ragnarok/"
+  },
+  {
+    "nome": "Watch Dogs 2",
+    "descricao": "Marcus Holloway, jovem hacker de San Francisco, une-se ao DedSec para derrubar o ctOS 2.0.",
+    "imagem": "imagem/WatchDogs2.jpg",
+    "trailer": "https://www.youtube.com/watch?v=hh9x4NqW0Dw",
+    "link": "https://www.ubisoft.com/pt-br/game/watch-dogs/watch-dogs-2"
+  },
+  {
+    "nome": "Red Dead Redemption 2",
+    "descricao": "A história de Arthur Morgan e da gangue Van der Linde lutando para sobreviver no fim do Velho Oeste.",
+    "imagem": "imagem/reddeadredemption2.avif",
+    "trailer": "https://www.youtube.com/watch?v=gmA6MrX81z4",
+    "link": "https://www.rockstargames.com/br/reddeadredemption2"
+  },
+  {
+    "nome": "Far Cry 5",
+    "descricao": "No Condado de Hope, você enfrenta a seita apocalíptica 'Projeto do Portão do Éden', liderada por Joseph Seed.",
+    "imagem": "imagem/FarCry5.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Kdaoe4hbMso",
+    "link": "https://www.ubisoft.com/pt-br/game/far-cry/far-cry-5"
+  },
+  {
+    "nome": "Avatar: Frontiers of Pandora",
+    "descricao": "Um Na'vi criado pela RDA se liberta e precisa redescobrir sua identidade enquanto luta pela Pandora.",
+    "imagem": "imagem/Avatar.jpeg",
+    "trailer": "https://www.youtube.com/watch?v=sIYHK0Q2Jkc",
+    "link": "https://www.ubisoft.com/pt-br/game/avatar/frontiers-of-pandora"
+  },
+  {
+    "nome": "Marvel's Spider-Man",
+    "descricao": "Peter Parker enfrenta os Demônios Interiores enquanto tenta equilibrar sua vida como herói e pessoa comum.",
+    "imagem": "imagem/Marvelspiner.webp",
+    "trailer": "https://www.youtube.com/watch?v=nq1M_Wc4FIc",
+    "link": "https://www.playstation.com/pt-br/games/marvels-spider-man-2/"
+  },
+  {
+    "nome": "Minecraft",
+    "descricao": "Um jogo de mundo aberto onde você pode construir, explorar e sobreviver em um universo criado por blocos.",
+    "imagem": "imagem/Minecraft.jpg",
+    "trailer": "https://www.youtube.com/watch?v=jLuJbSjo7NA",
+    "link": "https://www.minecraft.net/pt-br/store/minecraft-deluxe-collection-pc?OCID=AIDcmmx0j7bkem_SEM_MinecraftAcquisitionBR_GA_Branded_Minecraft-Creative1-GBL&gad_source=1&gad_campaignid=22976576309&gbraid=0AAAAAC-2-qDk52FMVKkvuWylmXjLtNHaj&gclid=CjwKCAiA_orJBhBNEiwABkdmjFj-gx5FT3nz1QO701p8WVXehIstZS1Hm5nIlDAwJP09UdqjGHTaUBoCz1AQAvD_BwE&tabs=%7B%22details%22%3A0%7D"
+  },
+  {
+    "nome": "Call of Duty",
+    "descricao": "FPS de ação intensa com combates modernos, campanhas cinematográficas e multiplayer competitivo.",
+    "imagem": "imagem/CallofDuty.webp",
+    "trailer": "https://www.youtube.com/watch?v=0E44DClsX5Q",
+    "link": "https://www.callofduty.com/br/pt"
+  },
+  {
+    "nome": "The Last Of US Part I",
+    "descricao": "20 anos após uma pandemia causada por uma mutação do fungo Cordyceps, Joel precisa escoltar Ellie pelos EUA.",
+    "imagem": "imagem/TheLastOfUSPart.jpg",
+    "trailer": "https://www.youtube.com/watch?v=WxjeV10H1F0",
+    "link": "https://www.playstation.com/pt-br/games/the-last-of-us-part-i/"
+  }
+]
