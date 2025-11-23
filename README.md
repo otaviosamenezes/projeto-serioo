@@ -8,7 +8,7 @@
 <p>
 O <strong>Lista de Jogos</strong> é um site criado para exibir jogos de forma moderna, organizada e fácil de navegar.  
 Ele mostra cards com imagem, nome, descrição, trailer e detalhes adicionais — tudo carregado automaticamente através de um arquivo JSON, tornando o projeto rápido de atualizar e expandir.
-</p>
+ Além disso o site totalmente Responsivo para Celular, Tablet, Notebook, PC</p>
 <p>Acessar o Site aqui <a href = "https://otaviosamenezes.github.io/projeto-serioo/projeto/">CLICAR AQUI</a></p>
 
 <h2>🚀 Funcionalidades</h2>
