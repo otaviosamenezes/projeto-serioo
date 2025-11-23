@@ -467,3 +467,23 @@ main{ padding: 150px 4% 60px 4%; }
     min-width: 180px;
   }
 }
+/* 🟦 Ajuste SOMENTE para CELULAR (telas menores que 600px) */
+@media (max-width: 600px) {
+
+  .search-wrap {
+    gap: 8px; /* diminui o espaço entre os itens */
+  }
+
+  .search-wrap input{
+    width: 65%;        /* reduz o comprimento no celular */
+    height: 40px;      /* mais baixo */
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  #botao-busca, #botao-voltar {
+    height: 40px;      /* menor */
+    padding: 0 14px;   /* mais curto */
+    font-size: 14px;
+  }
+}
