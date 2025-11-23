@@ -487,3 +487,11 @@ main{ padding: 150px 4% 60px 4%; }
     font-size: 14px;
   }
 }
+/* Afinar o campo de texto SOMENTE no celular */
+@media (max-width: 600px) {
+
+  .search-wrap input {
+    width: 55%;       /* antes era 100% ou 80% — agora fica mais fino */
+  }
+
+}
