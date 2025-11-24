@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://projeto/imagem/Alura.png" alt="Capa do Projeto" width="900">
+  <img src="projeto/imagem/Alura.png" alt="Capa do Projeto" width="900">
 </p>
 
 <h1>🎮 Lista de Jogos</h1>
